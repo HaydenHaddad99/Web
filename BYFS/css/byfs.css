@@ -17,7 +17,7 @@ body {
 #corp_logo {
 	width: 600px;
 	height: 60px;
-	background: url('images/catapultlogo.png') no-repeat;
+	background: url('images/catapultlogo.png') no-repeat;;
 	position: relative;
 	left: 10px;
 	top: 25px;
@@ -26,4 +26,31 @@ body {
 	font-size: 20px;
 	font-style: oblique;
 	text-align: right;
+}
+
+#page_menu {
+	 position: relative;
+	 top:20px;
+}
+
+#page_menue li {
+      margin-right: 1px;
+      width: 155px;
+      height: 19px;
+      float: left;
+      background-color: lightblue;
+      font-size: 11px;
+      font-weight: bold;
+      overflow: hidden;
+      text-align: center;
+}
+
+#page_menue a{
+	padding-top: 3px;
+	display: block;;
+	color: white;
+}
+
+#page_menue a:hover {
+		color:lightblue;
 }
