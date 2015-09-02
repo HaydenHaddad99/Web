@@ -1,0 +1,38 @@
+@{
+  <!-- Validate the input from the form -->
+  var email = Request.Form["email"];
+ <!-- Add logic here to save email address -->
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />  
+    <title>Welocme to BYFS!</title>
+    <link rel="stylesheet"  href="css/byfs.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="page_header">
+        <div id="corp_logo"> 
+            <p style="color: white;">Do What You Do Right!</p>
+        </div>
+        <div id="page_menu">
+            <userlist>
+                <list><a href="home.html">Home</a></list>
+                <list><a href="services.html">Services</a></list>
+                <list><a href="history.html">History</a></list>
+                <list><a href="contact.html">Contact</a></list>
+            </userlist>     
+        </div>  
+   </div>
+    <div id="page_body">
+     <br/>
+     <p>Thank you @email  we look forword to connecting with you!</p>
+     <br/>
+     <a href="home.html">Back to home page </a>
+    </div>
+    <p>copyright 2015 - Catapult Health.
+       All rigts reservid </p>
+    </body>
+</html>
