@@ -1,9 +1,7 @@
-@{
-  <!-- Validate the input from the form -->
-  var email = Request.Form["email"];
- <!-- Add logic here to save email address -->
-}
 
+@{
+  string email = Request.Form["email"];
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +26,7 @@
    </div>
     <div id="page_body">
      <br/>
-     <p>Thank you @email  we look forword to connecting with you!</p>
+     <p>Thank you, @email - we look forword to connecting with you!</p>
      <br/>
      <a href="home.html">Back to home page </a>
     </div>
