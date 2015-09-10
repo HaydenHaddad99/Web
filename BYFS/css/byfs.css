@@ -11,7 +11,7 @@ body {
 #page_header {
 	width: 700px;
 	height: 120px;
-	background: darkblue;
+	background:silver;
 }
 
 }
@@ -43,7 +43,7 @@ body {
       width: 120px;
       height: 19px;
       float: center;
-      background-color: gray;
+      background-color: lightblue;
       font-size: 14px;
       /*font-weight: bold;*/
       overflow: hidden;
@@ -52,11 +52,11 @@ body {
 
 #page_menu a{
 	padding-top: 1px;
-	color: white;
+	color: blue;
 }
 
 #page_menu a:hover {
-		color:black;
+		color:red;
 }
 
 #picture_frame  {
@@ -70,7 +70,7 @@ body {
 }
 
 #page_body{
-	background-color: green;
+	background-color: gray;
 	width: 700px;
 	height: 400px;
 	text-align: center;
