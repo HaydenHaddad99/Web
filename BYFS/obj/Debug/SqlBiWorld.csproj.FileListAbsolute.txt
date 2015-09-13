@@ -1,0 +1,5 @@
+\\dal-fs1\UserFolders$\hhaddad\My Documents\Visual Studio 2013\Projects\WebSite1\TestWebsite\bin\TestWebsite.dll.config
+\\dal-fs1\UserFolders$\hhaddad\My Documents\Visual Studio 2013\Projects\WebSite1\TestWebsite\bin\TestWebsite.dll
+\\dal-fs1\UserFolders$\hhaddad\My Documents\Visual Studio 2013\Projects\WebSite1\TestWebsite\bin\TestWebsite.pdb
+\\dal-fs1\UserFolders$\hhaddad\My Documents\Visual Studio 2013\Projects\WebSite1\TestWebsite\obj\Debug\TestWebsite.dll
+\\dal-fs1\UserFolders$\hhaddad\My Documents\Visual Studio 2013\Projects\WebSite1\TestWebsite\obj\Debug\TestWebsite.pdb

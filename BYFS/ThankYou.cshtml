@@ -1,4 +1,4 @@
-@{
+﻿@{
 string email = Request.Form["email"];
 }
 
@@ -8,8 +8,16 @@ string email = Request.Form["email"];
     <meta charset="utf-8" />  
     <title>Welocme to BYFS!</title>
     <link rel="stylesheet"  href="css/byfs.css" type="text/css" media="screen" />
+    <script lang="javascript">
+        function getDate() {
+            var Today = new Date();
+            var formattedDate = (Today.getMonth() + 1) + "-" +
+            Today.getDate() + "-" + Today.getFullYear();
+            document.getElementById("datetext").innerHTML = formattedDate;
+        }
+    </script>
 </head>
-<body>
+<body onload="getDate()">
     <div id="page_header">
         <div id="corp_logo"> 
             <p style="color: white;">Do What You Do Right!</p>
@@ -26,8 +34,9 @@ string email = Request.Form["email"];
     <div id="page_body">
      <br/>
      <p>Thank you, @email - we look forword to connecting with you!</p>
-     <br/>
      <a href="home.html">Back to home page </a>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <p  id="datetext">---</p>
     </div>
     <p>copyright 2015 - Catapult Health.
        All rigts reservid </p>
